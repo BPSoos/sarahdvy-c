@@ -14,6 +14,11 @@ int main(void){
     while(!(n%eredmeny==0) || !(m%eredmeny==0)){
         eredmeny -= 1;
     }
-    printf("LNKO (brute force): %d", eredmeny);
-    \\ euklideszi algoritmus here
+    printf("LNKO (brute force): %d\n", eredmeny);
+    while(n!=m){
+        if (n<m){ m -= n; }else
+        { n -= m; }
+    }
+    printf("euklideszi algoritmussal: %d", n);
+    return 0;
 }
