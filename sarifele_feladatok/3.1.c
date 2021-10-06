@@ -10,6 +10,6 @@ int main()
     scanf("%f", &b);
     printf("Harmadik oldalhossz:\n");
     scanf("%f", &c);
-    if ( a + b > c && a + c > b && b + c > a){ printf("Lehetseges haromszog"); } else{ printf("Nem lehetseges haromszog"); }
+    if ( a + b > c && a + c > b && b + c > a){ printf("Lehetseges haromszog\n"); } else{ printf("Nem lehetseges haromszog\n"); }
     return 0;
 }
